@@ -1,0 +1,14 @@
+
+class MyClass
+   def initialize()
+     puts 'init'
+   end
+
+   def self.[](hello)
+     puts 'hello'
+   end
+
+end
+
+my =MyClass.new
+my['sssss']

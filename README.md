@@ -1,2 +1,3 @@
 ruby example
-readm.txt
+
+http://www.runoob.com/ruby/ruby-loop.html
