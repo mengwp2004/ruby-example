@@ -6,7 +6,7 @@ require "open-uri"
 
 def balance()
       begin
-        (open("http://127.0.0.1" + '/cgi-bin/total.cgi').read.rstrip.to_f)
+        (open("http://127.0.0.1:8545" + '/cgi-bin/total.cgi').read.rstrip.to_f)
         #puts (open("http://127.0.0.1:80" + '/cgi-bin/total.cgi').read)
       rescue Exception => e 
          puts e.message 
